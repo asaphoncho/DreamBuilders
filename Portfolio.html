@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="DreamBuildersLogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <div class="col-12 bg-white flex-row main-center">
+            <div class="top-2 col-10 flex-row cross-center border-top-black" style="padding-bottom: 2rem;">
+                <div style="padding-right: 1.5; padding-top: 1.5rem;" class="col-half border-right-black">
+                    <a href="Index.html"><img style="cursor: pointer;" id="logo" src="images/dreambuilderslogoblack.png" alt=""></a>
+                </div>
+                <div class="col-11half flex-row main-end cross-center" style="padding-top: 1.5rem;">
+                    <div id="nav2" class="col-4 main-between">
+                        <a href="About us.html" class="body-small"><button id="nav-btn">ABOUT US</button></a>
+                        <a href="Portfolio.html" class="body-small"><button id="nav-btn">PORTFOLIO</button></a>
+                        <a href="Services.html" class="body-small"><button id="nav-btn">SERVICES</button></a>
+                        <a href="Contact Us.html" class="body-small"><button id="nav-btn">CONTACT</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="portfolio-section">
+            <div style="margin-top: 5rem; color: #101010;" class="heading-title">
+                <span style="color: #101010; letter-spacing: 4px; font-size: 10px;">Projects in live</span>
+                <span>Portfolio</span>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-nav">
+                    <div onclick="allSwitch()" id="all-container">
+                        <span>ALL</span>
+                    </div>
+                    <div onclick="resSwitch()" id="residential-container">
+                        <span>RESIDENTIAL</span>
+                    </div>
+                    <div onclick="comSwitch()" id="commercial-container">
+                        <span>COMMERCIAL</span>
+                    </div>
+                </div>
+                <div id="picture-section" class="picture-section">
+                    <div class="picture-set">
+                        <div class="big-pic">
+                            <img src="images/residential1.png" alt="">
+                            <div class="caption">
+                                <span>Craven Cottage</span>
+                                <span class="lower-caption">Wales</span>
+                            </div>
+                        </div>
+                        <div class="small-pics">
+                            <div class="small-pic-and-text">
+                                <img src="images/residential2.png" alt="">
+                                <div class="caption">
+                                    <span>A residential building</span>
+                                    <span class="lower-caption">Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                            <div class="small-pic-and-text">
+                                <img src="images/residential3.png" alt="">
+                                <div class="caption">
+                                    <span>A residential building</span>
+                                    <span class="lower-caption">Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="picture-set">
+                        <div class="small-pics">
+                            <div class="small-pic-and-text">
+                                <img src="images/residential4.png" alt="">
+                                <div class="caption">
+                                    <span>A residential building</span>
+                                    <span class="lower-caption">Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                            <div class="small-pic-and-text">
+                                <img src="images/residential5.png" alt="">
+                                <div class="caption">
+                                    <span>A residential building</span>
+                                    <span class="lower-caption">Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="big-pic">
+                            <img src="images/residential6.png" alt="">
+                            <div class="caption">
+                                <span>A residential building</span>
+                                <span class="lower-caption">Lagos, Nigeria</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="picture-set">
+                        <div class="big-pic">
+                            <img src="images/commercial1.png" alt="">
+                            <div class="caption">
+                                <span>A residential building</span>
+                                <span class="lower-caption">Lagos, Nigeria</span>
+                            </div>
+                        </div>
+                        <div class="small-pics">
+                            <div class="small-pic-and-text">
+                                <img src="images/commercial2.png" alt="">
+                                <div class="caption">
+                                    <span>A residential building</span>
+                                    <span class="lower-caption">Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                            <div class="small-pic-and-text">
+                                <img src="images/commercial3.png" alt="">
+                                <div class="caption">
+                                    <span>A residential building</span>
+                                    <span class="lower-caption">Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+    </section>
+    <section>
+        <div class="contact-section">
+            <div class="contact-container">
+                <div class="heading-container3">
+                    <span style="color: white;" class="h2">Contact Us</span>
+                </div>
+            </div>
+        </div>
+        <div class="contact-image-container">
+            <div class="form-section">
+                <div class="form-container">
+                    <div class="first-forms">
+                        <div class="inquiry-container">
+                            <label for="">Inquiry</label>
+                            <input type="text" placeholder="e.g Design Development">
+                        </div>
+                        <div class="inquiry-container">
+                            <label for="">Region</label>
+                            <input type="text" placeholder="e.g South-West">
+                        </div>
+                    </div>
+                    <div class="first-forms">
+                        <div class="inquiry-container">
+                            <label for="">First Name</label>
+                            <input type="text" placeholder="e.g John">
+                        </div>
+                        <div class="inquiry-container">
+                            <label for="">Last Name</label>
+                            <input type="text" placeholder="e.g Doe">
+                        </div>
+                    </div>
+                    <div class="first-forms">
+                        <div class="inquiry-container">
+                            <label for="">Phone Number</label>
+                            <input type="text" placeholder="e.g +23412345678">
+                        </div>
+                        <div class="inquiry-container">
+                            <label for="">Email</label>
+                            <input type="text" placeholder="e.g Johndoe@gmail.com">
+                        </div>
+                    </div>
+                    <div class="description-container">
+                        <label for="">Description</label>
+                        <input class="description-input" type="text" placeholder="">
+                    </div>
+                </div>
+                <div class="address-section">
+                    <span>+234 705 776 1198</span>
+                    <span>dreamhouse@dreamhouse.ng</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer-section">
+
+            <div class="footer-nav">
+                <a href="Index.html">HOME</a>
+                <a href="About us.html">ABOUT US</a>
+                <a href="Portfolio.html">PORTFOLIO</a>
+                <a href="Services.html">SERVICES</a>
+                <a href="Contact Us.html">CONTACT US</a>
+            </div>
+            <div class="media-section">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
