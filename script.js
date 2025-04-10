@@ -3,6 +3,14 @@ let allCon = document.getElementById("all-container")
 let residentialCon = document.getElementById("residential-container")
 let commercialCon = document.getElementById("commercial-container")
 let pictureSection = document.getElementById("picture-section")
+let bodyEl = document.getElementById("body-el")
+
+if(window.innerWidth < 1000){
+    bodyEl.innerHTML = `<div className="mobile-view">
+                <span>This page can only be loaded on a desktop/laptop computer and other devices with large screens.</span>
+                <span>Please try again with a device that fits the description.</span>
+            </div>`
+}
 
 const imageChange = () => {
     setTimeout(() => {
